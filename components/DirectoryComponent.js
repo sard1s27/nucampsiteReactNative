@@ -31,7 +31,7 @@ class Directory extends Component {
 
         return (
             <FlatList
-                data={this.states.campsites}
+                data={this.state.campsites}
                 renderItem={renderDirectoryItem}
                 keyExtractor={item => item.id.toString()}
             />
